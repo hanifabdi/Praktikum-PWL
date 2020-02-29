@@ -1,0 +1,76 @@
+@media only screen and (min-width: 446px) {
+.navbar {
+    display: flex;
+    background-color: #5190f5;
+    border-radius: 20px;
+}
+.navbar > div {
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: center;
+    margin: 25px;
+}
+.navbar a {
+    font-family: Viga;
+    color: #eee;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: white;
+}
+.navbar img {
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+section img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+ body {
+    background-color: #99a9c2;
+}
+h1{
+    text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 445px) {
+.navbar {
+    display: flex;
+    background-color: #5190f5;
+    border-radius: 20px;
+}
+.navbar > div {
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px;
+}
+.navbar a {
+    font-family: Viga;
+    color: white;
+}
+
+.navbar img {
+    width: 50%;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+section img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+ body {
+    background-color: #99a9c2;
+}
+
+}
