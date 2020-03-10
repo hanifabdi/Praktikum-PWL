@@ -1,4 +1,4 @@
 [build] 
 base = "Praktikum-PWL/"
 publish = "Praktikum-PWL/_site" 
-command = "npm --g install @11ty/eleventy && eleventy"
+command = "npm --g install @11ty/eleventy && eleventy --serve"
